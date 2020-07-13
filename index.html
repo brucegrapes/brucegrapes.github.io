@@ -86,7 +86,20 @@
   font-size: 28px;
   color: black;
 }
-
+@media only screen and (max-width: 600px) {
+  #texeffect  {
+  border-right: solid 5px rgba(255,255,255,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 18px;
+  color: black;
+ }
+ .home_banner_area .banner_inner .banner_content h5 {
+    margin-top: 0px;
+    max-width: 350px;
+  }
+}
 /* Animation */
 #texeffect {
   animation: animated-text 4s linear 1s 1 normal both,
