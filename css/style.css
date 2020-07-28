@@ -211,6 +211,11 @@ button:focus {
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+/*custom*/
+.img-logo {
+    max-height: 55px;
+}
+/*custom*/
 .header_area {
   position: absolute;
   width: 100%;
